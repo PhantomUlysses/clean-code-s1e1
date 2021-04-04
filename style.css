@@ -1,25 +1,25 @@
 /* Basic Style */
-body {
+.page__app {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
-.intro {
+.app__image {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.intro img {
+.app__image img {
   width: 100%;
 }
-.intro .more-inf {
+.app__image .image__info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-.intro { 
+.app__image { 
   text-align: center;
 }
 
@@ -133,7 +133,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks label {
+#main__completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
@@ -143,11 +143,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-ul .edit-mode input[type="text"] {
+ul .incomplete-tasks__edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul .edit-mode label {
+ul .incomplete-tasks__edit-mode label {
   display: none;
 }
